@@ -43,7 +43,7 @@ header {
   background-color: #1c1c24;
   color: #f4ecd8;
   border-bottom: 5px solid #b3283a;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -93,6 +93,18 @@ main a:hover {
   display: block;
   margin: 15px auto;
   border: 5px solid #1c1c24;
+}
+
+.obra:hover{
+  transform: translatey(-20px);
+  box-shadow:#b3283a 5px 9px 5px 5px;
+  transition: 0.9;
+}
+
+.secao:hover{
+  transform: translatey(-5px);
+  box-shadow:#b3283a 2px 2px 1px 1px;
+  transition: 0.5;
 }
 
 footer {
