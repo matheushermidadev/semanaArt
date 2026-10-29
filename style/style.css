@@ -6,12 +6,25 @@ body {
   line-height: 1.7;
 }
 
+@font-face {
+  font-family: 'Amarillo';
+  src: url(../fonts/Amarillo.otf),
+  url(../fonts/Amarillo.ttf);
+}
+
+@font-face {
+  font-family: 'Roffelia' ;
+  src: url(../fonts/Roffelia.otf);
+}
+
 h1 {
-  font-size: 26px;
+  font-size: 30px;
+  font-family: 'Amarillo';
 }
 
 h2 {
   font-size: 20px;
+  font-family: 'Roffelia';
 }
 
 h3 {
@@ -73,15 +86,6 @@ main a {
 
 main a:hover {
   color: #b3283a;
-}
-
-.imagem {
-  background-color: #e8dcbc;
-  border: 3px dashed #1f6f78;
-  padding: 100px 20px;
-  text-align: center;
-  font-size: 15px;
-  margin: 15px 0;
 }
 
 .obra {
